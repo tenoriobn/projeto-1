@@ -1,0 +1,99 @@
+.company-bg {
+    background: linear-gradient(180deg, rgba(58,120,242,1) 59%, rgba(255,255,255,1) 59%);
+}
+
+.company__paragrafo {
+    color: var(--cinza-gelo);
+}
+
+.company__descricao {
+    color: var(--branco);
+}
+
+.company__card {
+    --bs-card-border-color: none!important;
+}
+
+.company-icone {
+    width: 30px;
+}
+
+.company__card-title {
+    color: var(--cinza-fosco);
+    font-weight: 600;
+}
+
+.company__card-text {
+    color: var(--cinza);
+    font-size: 1rem;
+
+    margin-bottom: 0px;
+}
+
+.company__link {
+    color: var(--azul);
+    font-weight: 700;
+}
+
+.company-card {
+    background-color: var(--azul);
+}
+
+.card__titulo {
+    color: var(--branco);
+    font-weight: 700;
+}
+
+.card__texto {
+    color: var(--cinza-transparente);
+    line-height: 1.2rem;
+    margin-bottom: 0;
+}
+
+.card__border {
+    height: 6vh;
+}
+
+
+@media screen and (max-width: 328px) {
+    .card__titulo {
+        font-size: 1rem;
+    }
+    
+    .card__texto {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .company__paragrafo {
+        padding-top: 3.5rem!important;
+        margin-bottom: 0.5rem;
+    }
+    
+    .company__descricao {
+        font-size: 2.5rem;
+        width: 400px;
+
+        padding-bottom: 2.5rem;
+    }
+    
+    .company-info {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .card__container {
+        margin-top: .1rem!important;
+    }
+
+    .company-card {
+        padding: 2rem 0;
+        margin-bottom: 5rem!important;
+    }
+    
+    .card__titulo {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Oxanium:wght@200;300;400;500;600;700;800&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/base/style.css">
+    <title>TechTack - Soluções Digitais</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg mt-4">
+            <div class="container">
+
+                <figure class="logotipo d-flex flex-column align-items-center">
+                    <img src="assets/img/logo/Logo-TechTack.svg" alt="Logo da TechTack" class="logo-img">
+                    <h1 class="logo-titulo">TechTack</h1>
+                </figure>
+
+                <button class="navbar-toggler navbar-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                    <span class="navbar-toggler-icon navbar__icon-hamburguer"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end barra-menu-width" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+
+                    <header class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </header>
+
+                    <nav class="offcanvas-body navbar__mobile">
+                        <ul class="navbar-nav flex-grow-1 justify-content-center align-items-center">
+                                <li class="nav-item"><a class="nav-link navbar__link active" aria-current="page" href="#">Services</a></li>
+                                <li class="nav-item"><a class="nav-link navbar__link" href="#">Why Us</a></li>
+                                <li class="nav-item"><a class="nav-link navbar__link" href="#">Pricing</a></li>
+                                <li class="nav-item"><a class="nav-link navbar__link" href="#">Review</a></li>
+                        </ul>
+
+                        <button type="button" class="btn btn-dark px-3 justify-content-end  align-items-center navbar__botao"><a>Get Quotes</a></button>
+
+                    </nav><!--OffcanvaBody-->
+
+                </div><!--OffcanvasEnd-->
+            </div><!--Container-->
+        </nav>
+    </header><!--Cabecalho-->
+
+    <main class="conteudo">
+        <section class="container chamada d-flex flex-column align-items-center align-items-lg-stretch mt-4">
+            <div class="row container__chamada">
+                <div class="d-flex flex-column align-items-center align-items-lg-start justify-content-between col-lg-6">
+                    <h2 class="chamada__subtitulo text-xl-start mb-3">WordPress<br> <span class="icon__titulo subtitulo__icon"></span> Solutions<br> <span class="chamada__text-color">Delivered!</span></h2>
+                    <p class="chamada__paragrafo text-center mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                
+                    <div class="chamada__btn-desktop gap-3">
+                        <button type="button" class="btn btn__started-color btn-azul pb-3 pt-3 mb-4 mt-3 col-lg-8 col-xl-11">Get Started</button>
+                        <button type="button" class="btn btn__more-color btn-transparent pb-3 pt-3 mb-4 mt-3 col-lg-8 col-xl-11">Learn more</button>
+                    </div><!-- Chamada Botão-->
+                </div><!-- Subtitulo e Botões-->
+                
+                <div class="chamada__container-imagem d-flex justify-content-center justify-content-lg-end align-items-center col-lg-6">
+                    <img src="assets/img/Banner/imagem-chamada-mobile.png" alt="Imagem Chamada" class="chamada__img-mobile img-fluid ms-3 mb-3 mt-3">
+                    <img src="assets/img/Banner/imagem-chamada-desktop.png" alt="Imagem Chamada" class="chamada__img-desktop img-fluid ms-3 mb-3">
+                </div><!--Container Imagem-->
+            </div><!-- Row -->
+
+            <div class="chamada__btn-mobile">
+                <button type="button" class="btn btn__started-color btn-azul pb-3 pt-3 mb-4 mt-3 w-100">Get Started</button>
+                <button type="button" class="btn btn__more-color btn-transparent pb-3 pt-3 w-100 mb-1">Learn more</button>
+            </div><!-- Chamada Botão-->
+
+            <figure class="d-flex align-items-center justify-content-between icon-parcerias mt-5 mb-4">
+                <img class="parceria__icon-Logo" src="assets/img/logo/Uber.svg" alt="Logo da Uber">
+                <img class="parceria__icon-Logo" src="assets/img/logo/Slack.svg" alt="Logo da Slack">
+                <img class="parceria__icon-Logo" src="assets/img/logo/Microsoft.svg" alt="Logo da Microsoft">
+                <img class="parceria__icon-Logo logo__Ict-Hub" src="assets/img/logo/Ict Hub.svg" alt="Logo da Ict Hub">
+            </figure>
+
+        </section><!--Chamada-->
+
+        <section class="container services mb-5">
+            <h2 class="mt-5 text-center services__subtitulo">Our Services</h2>
+            <p class="services__paragrafo text-center p-1 mb-4">Trusted over 1000+ clients</p>
+            
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+                <div class="col">
+                    <div class="card rounded-4">
+                        <div class="d-flex align-items-start flex-lg-column ps-lg-3 ps-xl-5">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/Strategy-FundoPreto.svg" class="card__imagem img-fluid rounded-start pt-3 ps-3" alt="...">
+                            </figure>
+                            <article class="card-body">
+                                <h5 class="card-title">Strategy</h5>
+                                <p class="card-text services__card-paragrafo pt-lg-3 pb-lg-3">Dolor sit amet, consectetur adipiscing elit. Dolor</p>
+                                <a class="card-text services__card-link text-decoration-none" href="#">Lean More</a>
+                            </article>
+                        </div> <!-- Container flexbox -->
+                    </div><!-- Card -->
+                </div><!-- Col -->
+
+                <div class="col">
+                    <div class="card rounded-4 card__alternativo">
+                        <div class="d-flex align-items-start flex-lg-column ps-lg-3 ps-xl-5">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/Strategy-FundoBranco.svg" class="card__imagem img-fluid rounded-start pt-3 ps-3" alt="...">
+                            </figure>
+                            <article class="card-body">
+                                <h5 class="card-title">Strategy</h5>
+                                <p class="card-text services__card-paragrafo card-paragrafo__alternativo pt-lg-3 pb-lg-3">Dolor sit amet, consectetur adipiscing elit. Dolor</p>
+                                <a class="card-text services__card-link text-decoration-none card-link__alternativo" href="#">Lean More</a>
+                            </article>
+                        </div> <!-- Container flexbox -->
+                    </div> <!-- Card -->
+                </div> <!-- Col -->
+                
+                <div class="col">
+                    <div class="card rounded-4">
+                        <div class="d-flex align-items-start flex-lg-column ps-lg-3 ps-xl-5">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/Support.svg" class="card__imagem img-fluid rounded-start pt-3 ps-3" alt="...">
+                            </figure>
+                            <article class="card-body">
+                                <h5 class="card-title">Client Support</h5>
+                                <p class="card-text services__card-paragrafo pt-lg-3 pb-lg-3">Dolor sit amet, consectetur adipiscing elit. Dolor</p>
+                                <a class="card-text services__card-link text-decoration-none" href="#">Lean More</a>
+                            </article>
+                        </div> <!-- Container flexbox -->
+                    </div><!-- Card -->
+                </div><!-- Col -->
+
+                <div class="col">
+                    <div class="card rounded-4">
+                        <div class="d-flex align-items-start flex-lg-column ps-lg-3 ps-xl-5">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/Market.svg" class="card__imagem img-fluid rounded-start pt-3 ps-3" alt="...">
+                            </figure>
+                            <article class="card-body">
+                                <h5 class="card-title">Market Forecast</h5>
+                                <p class="card-text services__card-paragrafo pt-lg-3 pb-lg-3">Dolor sit amet, consectetur adipiscing elit. Dolor</p>
+                                <a class="card-text services__card-link text-decoration-none" href="#">Lean More</a>
+                            </article>
+                        </div> <!-- Container flexbox -->
+                    </div><!-- Card -->
+                </div><!-- Col -->
+
+                <div class="col">
+                    <div class="card rounded-4">
+                        <div class="d-flex align-items-start flex-lg-column ps-lg-3 ps-xl-5">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/Design.svg" class="card__imagem img-fluid rounded-start pt-3 ps-3" alt="...">
+                            </figure>
+                            <article class="card-body">
+                                <h5 class="card-title">Design</h5>
+                                <p class="card-text services__card-paragrafo pt-lg-3 pb-lg-3">Dolor sit amet, consectetur adipiscing elit. Dolor</p>
+                                <a class="card-text services__card-link text-decoration-none" href="#">Lean More</a>
+                            </article>
+                        </div> <!-- Container flexbox -->
+                    </div><!-- Card -->
+                </div><!-- Col -->
+
+                <div class="col">
+                    <div class="card rounded-4">
+                        <div class="d-flex align-items-start flex-lg-column ps-lg-3 ps-xl-5">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/Design.svg" class="card__imagem img-fluid rounded-start pt-3 ps-3" alt="...">
+                            </figure>
+                            <article class="card-body">
+                                <h5 class="card-title">Design</h5>
+                                <p class="card-text services__card-paragrafo pt-lg-3 pb-lg-3">Dolor sit amet, consectetur adipiscing elit. Dolor</p>
+                                <a class="card-text services__card-link text-decoration-none" href="#">Lean More</a>
+                            </article>
+                        </div> <!-- Container flexbox -->
+                    </div><!-- Card -->
+                </div><!-- Col -->
+            </div>
+        </section><!--Serviços-->
+
+        <section class="company__geral company">
+            <div class="container-fluid company-bg">
+                <div class="container">
+                    <p class="company__paragrafo pt-3">Why you should Use</p>
+                    <h5 class="company__descricao mb-4">The #1 WordPress  Service Company</h5>
+
+                    <div class="ratio ratio-16x9 mb-4">
+                        <iframe class="rounded-5" src="https://www.youtube.com/embed/wpz4dm0bHXg" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div><!-- Container -->
+            </div> <!-- Container Fluid -->
+
+            <article class="container company-info">
+                <div class="container__card-responsivo d-lg-flex align-items-lg-start gap-4">
+                    <div class="company__card rounded-4">
+                        <div class="d-flex g-0 gap-3 pt-4">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/fast.svg" class="rounded-start company-icone" alt="...">
+                            </figure>
+                            <div class="col-md-11">
+                                <article class="card-body card-info">
+                                    <h5 class="company__card-title pt-1">10+Fast Working Process</h5>
+                                    <p class="company__card-text mt-2">mmy text of the printing and typesetting industry. Lorem Ipsum has been
+                                        <a class="company__link text-decoration-none" href="#">Read more...</a>
+                                    </p>
+                                </article><!--Card Info-->
+                            </div><!--Col md 11-->
+                        </div><!--card-->
+                    </div><!--Container Card-->
+
+                    <div class="company__card rounded-4">
+                        <div class="card__container d-flex g-0 gap-3 pt-4 mt-3">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/Team.svg" class="rounded-start company-icone" alt="...">
+                            </figure>
+                            <div class="col-md-11">
+                                <article class="card-body card-info">
+                                    <h5 class="company__card-title pt-1 pt-lg-0">Dedicated Team</h5>
+                                    <p class="company__card-text mt-2">mmy text of the printing and typesetting industry. Lorem Ipsum has been
+                                        <a class="company__link text-decoration-none" href="#">Read more...</a>
+                                    </p>
+                                </article><!--Card Info-->
+                            </div><!--Col md 11-->
+                        </div><!--card-->
+                    </div><!--Container Card-->
+                </div><!-- Container Responsivo -->
+
+                <div class="container__card-responsivo d-lg-flex align-items-lg-start gap-4">
+                    <div class="company__card rounded-4">
+                        <div class="d-flex g-0 gap-3 pt-4 mt-3">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/Hour.svg" class="rounded-start company-icone" alt="...">
+                            </figure>
+                            <div class="col-md-11">
+                                <article class="card-body card-info">
+                                    <h5 class="company__card-title pt-1">24/7 Hours Support</h5>
+                                    <p class="company__card-text mt-2">mmy text of the printing and typesetting industry. Lorem Ipsum has been
+                                        <a class="company__link text-decoration-none" href="#">Read more...</a>
+                                    </p>
+                                </article><!--Card Info-->
+                            </div><!--Col md 11-->
+                        </div><!--card-->
+                    </div><!--Container Card-->
+
+                    <div class="company__card rounded-4">
+                        <div class="d-flex g-0 gap-3 pt-4 mt-3 mb-5">
+                            <figure class="services__icon-image">
+                                <img src="assets/img/icones/fast.svg" class="rounded-start company-icone" alt="...">
+                            </figure>
+                            <div class="col-md-11">
+                                <article class="card-body card-info">
+                                    <h5 class="company__card-title pt-1">10+Fast Working Process</h5>
+                                    <p class="company__card-text mt-2">mmy text of the printing and typesetting industry. Lorem Ipsum has been
+                                        <a class="company__link text-decoration-none" href="#">Read more...</a>
+                                    </p>
+                                </article><!--Card Info-->
+                            </div><!--Col md 11-->
+                        </div><!--card-->
+                    </div><!--Container Card-->
+                </div><!-- Container Responsivo -->
+            </article>
+
+            <div class="container-fluid company-card mb-5">
+                <div class="container card-group d-flex align-content-center justify-content-between pt-3 pb-3">
+                
+                    <article class="card__itens text-center">
+                        <h5 class="card__titulo">5.6k</h5>
+                        <p class="card__texto">Potential Employees</p>
+                    </article>
+
+                    <div class="position-relative pe-2">
+                        <span class="border card__border position-absolute top-50 translate-middle-y"></span>
+                    </div>
+
+                    <article class="card__itens text-center">
+                        <h5 class="card__titulo">99%</h5>
+                        <p class="card__texto">Accuracy Rate</p>
+                    </article>
+
+                    <div class="position-relative pe-1 ps-1">
+                        <span class="border card__border position-absolute top-50 translate-middle-y"></span>
+                    </div>
+
+                    <article class="card__itens text-center">
+                        <h5 class="card__titulo">10+</h5>
+                        <p class="card__texto">Years Experience</p>
+                    </article>
+
+                    <div class="position-relative pe-1 ps-1">
+                        <span class="border card__border position-absolute top-50 translate-middle-y"></span>
+                    </div>
+
+                    <article class="card__itens text-center">
+                        <h5 class="card__titulo">2.5+</h5>
+                        <p class="card__texto">World Wide Clients</p>
+                    </article>
+                </div>
+            </div><!-- Card Group -->
+        </section><!--Company-->
+
+        <section class="container pricing">
+            <h2 class="pricing__subtitulo text-center mb-3">Our Pricing</h2>
+            <p class="pricing__texto text-center mb-4">No hidden cost. Your deserve to know how much your website is going to cost.</p>
+
+            <div class="tabela__desktop">
+                <table class="table tabela mt-5">
+                    <thead class="tabela__conteudo">
+                        <tr class="bg__tabela-escuro">
+                            <th class="text-start table__titulo ps-3 pt-4 pb-4" scope="col">Features</th>
+                            <th class="text-center table__titulo pe-3 pt-4 pb-4" scope="col">Basic</th>
+                            <th class="text-center table__titulo pe-3 pt-4 pb-4" scope="col">Advance</th>
+                            <th class="text-center text-end table__titulo pe-3 pt-4 pb-4" scope="col">Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabela__conteudo">
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">10+ PAGES</td>
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo--transparente"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">RESPONSIVE DEVELOPMENT</td>
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo--transparente"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo--transparente"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">CMS IMPLEMENTATION</td>
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo--transparente"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">E-COMMERCE</td>
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo--transparente"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo--transparente"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">MOBILE APP</td>
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">EXTENDING LIMITS</td>
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">DESIGN COMPLEXITY</td>
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo--transparente"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">OWN ANALYTICS PLATFORM</td>
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="tabela__icon-certo"></span></td>
+
+                            <td class="text-center pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+
+                        <tr class="">
+                            <td class="table__info-preco ps-3 pt-4 pb-3">Price</td>
+                            <td class="text-center pt-4 pb-3">from<span class="table__info--valor-numero pe-2 ps-2">1500$</span></td>
+
+                            <td class="text-center pt-4 pb-3">from<span class="table__info--valor-numero pe-2 ps-2">3500$</span></td>
+
+                            <td class="text-center pt-4 pb-3">from<span class="table__info--valor-numero pe-2 ps-2">6000$</span></td>
+                        </tr>
+
+                        <tr class="">
+                            <td class="table__info-preco ps-3 pt-4 pb-3"></td>
+                            <td class="text-center"><button class="btn btn__started-color pricing__btn mt-2 mb-5 pt-3 ps-5 pe-5 pb-3" type="button">Get Started</button></td>
+
+                            <td class="text-center"><button class="btn btn__started-color btn__bg-color mt-2 mb-5 pt-3 ps-5 pe-5 pb-3" type="button">Get Started</button></td>
+
+                            <td class="text-center"><button class="btn btn__started-color pricing__btn mt-2 mb-5 pt-3 ps-5 pe-5 pb-3" type="button">Get Started</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="tabela__mobile">
+                <table class="table tabela mt-5">
+                    <thead class="tabela__conteudo">
+                        <tr class="bg__tabela-escuro">
+                            <th class="text-start table__titulo ps-2 pt-4 pb-4" scope="col">Features</th>
+                            <th class="text-end table__titulo pe-3 pt-4 pb-4" scope="col">Basic</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabela__conteudo">
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">10+ PAGES</td>
+                            <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">RESPONSIVE DEVELOPMENT</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">CMS IMPLEMENTATION</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">E-COMMERCE</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">MOBILE APP</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info-preco ps-2 pt-4 pb-3">Price</td>
+                            <td class="text-end pt-4 pb-3">from<span class="table__info--valor-numero pe-2 ps-2">1500$</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn__started-color pricing__btn mt-2 mb-5 pt-3 pb-3" type="button">Get Started</button>
+                </div>
+
+                <table class="table tabela mt-5">
+                    <thead class="tabela__conteudo">
+                        <tr class="bg__tabela-escuro">
+                            <th class="text-start table__titulo ps-2 pt-4 pb-4" scope="col">Features</th>
+                            <th class="text-end table__titulo pe-3 pt-4 pb-4" scope="col">Basic</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabela__conteudo">
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">10+ PAGES</td>
+                            <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">RESPONSIVE DEVELOPMENT</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">CMS IMPLEMENTATION</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">E-COMMERCE</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">MOBILE APP</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">EXTENDING LIMITS</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">DESIGN COMPLEXITY</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info-preco ps-2 pt-4 pb-3">Price</td>
+                            <td class="text-end pt-4 pb-3">from<span class="table__info--valor-numero pe-2 ps-2">3500$</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn__started-color btn__bg-color mt-2 mb-5 pt-3 pb-3" type="button">Get Started</button>
+                </div>
+
+                <table class="table tabela mt-5">
+                    <thead class="tabela__conteudo">
+                        <tr class="bg__tabela-escuro">
+                            <th class="text-start table__titulo ps-2 pt-4 pb-4" scope="col">Features</th>
+                            <th class="text-end table__titulo pe-3 pt-4 pb-4" scope="col">Basic</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabela__conteudo">
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">10+ PAGES</td>
+                            <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">RESPONSIVE DEVELOPMENT</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">CMS IMPLEMENTATION</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">E-COMMERCE</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">MOBILE APP</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info pt-4 pb-4 ps-3">EXTENDING LIMITS</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="">
+                            <td class="table__info pt-4 pb-4 ps-3">DESIGN COMPLEXITY</td>
+                        <td class="text-end pe-4 pt-4 pb-4"><span class="navbar-toggler-icon tabela__icon-certo"></span></td>
+                        </tr>
+                        <tr class="bg__tabela-escuro">
+                            <td class="table__info-preco ps-2 pt-4 pb-3">Price</td>
+                            <td class="text-end pt-4 pb-3">from<span class="table__info--valor-numero pe-2 ps-2">3500$</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn__started-color pricing__btn mt-2 mb-4 pt-3 pb-3" type="button">Get Started</button>
+                </div>
+            </div><!-- Tabela Mobile -->
+
+            <img src="assets/img/Banner/imagem-Tabela-mobile.png" class="rounded mx-auto d-block d-lg-none img-fluid w-75 img-pricing-mobile mt-5 mb-5" alt="Imagem ilustrativa da seção pricing">
+        </section><!-- Pricing -->
+
+        <section class="container-fluid formulario pt-4 pb-5">
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                
+                <figure class="imagem-form col-lg-6">
+                    <img src="assets/img/Banner/imagem-chamada-desktop.png" class="img-fluid img-pricing-desktop" alt="Imagem ilustrativa da seção pricing">
+                </figure>
+
+                <div class="form col-lg-6">
+                    <h2 class="formulario__titulo mb-5  text-center">Say hello!</h1>
+                    
+                    <form class="row mb-4 mb-lg-5">
+                        <div class="col">
+                            <label for="name" class="form-label formulario__titulo-campo">Name</label>
+                            <input type="text" class="form-control formulario__campo" placeholder="Your name" aria-label="Your name" id="name">
+                        </div>
+                        <div class="col">
+                            <label for="subject" class="form-label formulario__titulo-campo">Subject</label>
+                            <input type="text" class="form-control formulario__campo" placeholder="Choose sunject" aria-label="Choose sunject" id="subject">
+                        </div>
+                    </form><!--Row-->
+
+                    <form class="row mb-4 mb-lg-5">
+                        <div class="col">
+                            <label for="company" class="form-label formulario__titulo-campo">Company</label>
+                            <input type="text" class="form-control formulario__campo" placeholder="Text here" aria-label="Text here" id="company">
+                        </div>
+                        <div class="col">
+                            <label for="subject" class="form-label formulario__titulo-campo">Email</label>
+                            <input type="email" class="form-control formulario__campo" placeholder="You email address" aria-label="You email address" id="subject">
+                        </div>
+                    </form><!--Row-->
+
+                    <form class="row mb-4 mb-lg-5">
+                        <div class="col">
+                            <label for="message" class="form-label formulario__titulo-campo">Message</label>
+                            <textarea class="form-control formulario__campo" id="message" placeholder="Start typing here" rows="3"></textarea>
+                        </div>
+                    </form><!--Row-->
+
+                    <div class="d-grid gap-2 col-6 col-lg-4 mx-auto">
+                        <button class="btn btn__started-color btn-azul pt-2 pb-2" type="submit">Submit here</button>
+                    </div>
+                </div>
+
+                </div>
+            </div><!-- Container -->
+        </section><!-- Formulario -->
+    </main><!--Conteudo-->
+
+    <footer class="container-fluid rodape pt-4 pb-1">
+        <div class="container">
+            <div class="d-lg-flex justify-content-lg-between align-items-lg-start">
+                <div class="flex-lg-column">
+
+                    <figure class="logotipo-footer d-flex align-items-center gap-4">
+                        <img src="assets/img/logo/Logo-TechTack-Footer.svg" alt="Logo da TechTack" class="logo-img logo__img-footer">
+                        <h2 class="logo-titulo footer__logo-titulo">TechTack</h2>
+                    </figure>
+
+                    <address class="endereco mt-4">
+                        <p class="endereco__texto text-white">
+                            more recently with desktop<br>
+                            publishing softwa+re like versions
+                        </p>
+
+                        <p class="endereco__localizacao text-white">
+                            4188 North Street<br>
+                            Eastern Standard Time (EST)
+                        </p>
+                    </address>
+
+                    <figure class="d-flex align-items-center gap-3 mt-4">
+                        <span class="icon__footer icon_facebook"></span>
+                        <span class="icon__footer icon_twitch"></span>
+                        <span class="icon__footer icon_linkedin"></span>
+                        <span class="icon__footer icon_github"></span>
+                    </figure>
+                </div>
+                
+                <div class="table-responsive">
+                    <nav class="d-flex align-items-center justify-content-start gap-2 container__tabela">
+                        <ul class="table d-flex flex-column text-white p-0">
+                            <h5 class="tabela__titulo mt-4 pb-2">Support</h5>
+                            <a href="#" class="tabela__link ps-0">Pricing</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Documentation</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Sitemap</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Documentation</a>
+                        </ul>
+
+                        <ul class="table d-flex flex-column text-white p-0">
+                            <h5 class="tabela__titulo mt-4 pb-2">Company</h5>
+                            <a href="#" class="tabela__link ps-0">About Us</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Partners</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Testomonials</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Portfolio</a>
+                        </ul>
+
+                        <ul class="table d-flex flex-column text-white p-0">
+                            <h5 class="tabela__titulo mt-4 pb-2">Company</h5>
+                            <a href="#" class="tabela__link ps-0">About Us</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Partners</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Testomonials</a>
+                            <a href="#" class="tabela__link ps-0 pt-2">Portfolio</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <form class="footer__form mt-4">
+                    <h5 class="form__subtitulo text-white">Subscribe To Our Newsletter</h5>
+                    <p class="form__paragrafo text-white">more recently with desktop publishing<br>like Aldus PageMaker including</p>
+
+                    <input type="email" class="form__email pt-3 pb-3 ps-4 mb-2 mt-3" id="exampleFormControlInput1" placeholder="Enter Your Mail">
+
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button class="btn btn-primary btn-azul footer__form-btn mt-4" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+
+            <p class="footer__direitos text-center text-white mt-5">&copy;2022 Bruno Tenório, Inc All rights reserved</p>
+        </div><!-- Container -->
+    </footer><!--Rodape-->
+
+    <!--JavaScript-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>

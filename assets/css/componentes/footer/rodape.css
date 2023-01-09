@@ -1,0 +1,75 @@
+.rodape {
+    background-color: var(--cinza-fosco);
+}
+
+.logo__img-footer {
+    width: 2.1rem;
+}
+
+.footer__logo-titulo {
+    color: var(--branco);
+    font-size: 1.5rem;
+}
+
+.icon__footer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    display: inline-block;
+    height: 2.8em;
+    width: 40px;
+}
+
+.icon_facebook {
+    background-image: url(../../../img/logo/Facebook.svg);
+    width: 25px;
+}
+
+.icon_twitch {
+    background-image: url(../../../img/logo/Twitch.svg);
+}
+
+.icon_linkedin {
+    background-image: url(../../../img/logo/Linkedin.svg);
+}
+
+.icon_github {
+    background-image: url(../../../img/logo/Github.svg);
+}
+
+.tabela__links-border {
+    border: transparent!important;
+}
+
+.tabela__link {
+    color: var(--branco);
+
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.form__email {
+    border: 2px solid var(--branco);
+    background-color: var(--cinza-fosco);
+    width: 100%;
+}
+
+.footer__form-btn {
+    border-radius: 0;
+}
+
+.footer__direitos {
+    font-size: .8rem;
+}
+
+@media screen and (min-width: 992px) {
+    .container__tabela {
+        gap: 2rem!important;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container__tabela {
+        gap: 7rem!important;
+    }
+}

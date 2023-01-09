@@ -1,0 +1,104 @@
+.pricing__subtitulo {
+    color: var(--cinza-chumbo);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.pricing__texto {
+    color: var(--cinza-escuro);
+    font-weight: 400;
+}
+
+.tabela__desktop {
+    display: none;
+}
+
+.tabela__conteudo {
+    border-color: initial;
+    border: transparent;
+}
+
+.table__bg-color {
+    background-color: var(--azul-bebe);
+}
+
+.table__titulo {
+    color: var(--cinza-escuro);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.table__info {
+    color: var(--cinza-escuro);
+    font-weight: 400;
+}
+
+.table__info-preco {
+    color: var(--cinza-escuro);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.table__info--valor-numero {
+    color: var(--azul);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.pricing__btn {
+    background-color: transparent!important;
+    border: 2px solid var(--azul);
+    border-radius: .8rem;
+    color: var(--azul)!important;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn__bg-color {
+    background-color: var(--azul)!important;
+    color: var(--branco)!important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 0.8rem;
+}
+
+.tabela__icon-certo {
+    background-image: url(../../../img/icones/certo.svg);
+}
+
+.tabela__icon-certo--transparente {
+    background-image: url(../../../img/icones/certo_transparent.svg);
+}
+
+.tabela>:not(caption)>*>* {
+    padding: 0 0rem;
+}
+
+
+.bg__tabela-escuro{
+    background-color: var(--azul-bebe);
+}
+
+@media screen and (min-width: 768px) {
+    .pricing__subtitulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pricing__subtitulo {
+        font-size: 3rem;
+    }
+
+    .pricing__texto {
+        font-size: 1.1rem;
+    }
+
+    .tabela__mobile {
+        display: none;
+    }
+
+    .tabela__desktop {
+        display: flex;
+    }
+}

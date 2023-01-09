@@ -1,0 +1,23 @@
+:root {
+    /* Cores */
+    --azul: #3A78F2;
+    --azul-bebe: #EFF4FE;
+    --branco: #ffffff;
+    --branco-gelo: #F9FDFF;
+    --branco-neve: #F8F8F8;
+    --cinza: #7C7C7C;
+    --cinza-chumbo: #282A2C;
+    --cinza-claro: #D7D7D7;
+    --cinza-escuro: #303E49;
+    --cinza-fosco: #1D2225;
+    --cinza-gelo: #F5F5F5;
+    --cinza-grafite: #232425;
+    --cinza-transparente: #DCDCDC;
+    --preto: #000000;
+
+
+    /* Fontes */
+    --DmSans: 'DM Sans', sans-serif;
+    --Oxanium: 'Oxanium', cursive;
+    --WorkSans: 'Work Sans', sans-serif;
+}

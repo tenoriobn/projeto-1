@@ -1,0 +1,34 @@
+.formulario {
+    background-color: var(--branco-neve);
+}
+
+.img-pricing-desktop {
+    display: none;
+}
+
+.formulario__titulo {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.formulario__titulo-campo {
+    color: var(--cinza-escuro);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.formulario__campo {
+    background-color: #F5F5F5;
+}
+
+@media screen and (min-width: 992px) {
+    .formulario {
+        background-color: white!important;
+    }
+
+    .img-pricing-desktop {
+        display: flex;
+        height: 445px;
+    }
+}

@@ -1,0 +1,13 @@
+.navbar-mobile {
+    border: transparent;
+
+    padding: 0;
+}
+
+.navbar-mobile:focus {
+    box-shadow: none;
+}
+
+.navbar__icon-hamburguer {
+    background-image: url(../../../img/icones/menu-hamburguer.svg);
+}

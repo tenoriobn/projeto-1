@@ -1,0 +1,167 @@
+.chamada__subtitulo {
+    color: var(--cinza-chumbo);
+
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+
+    margin-bottom: 0;
+}
+
+.icon__titulo {
+    display: inline-block;
+    width: 1.1em;
+    height: 1.1em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.subtitulo__icon {
+    background-image: url(../../../img/icones/Icon-Titulo.svg);
+}
+
+.chamada__text-color {
+    color: var(--azul);
+}
+
+.chamada__paragrafo {
+    color: var( --cinza-escuro);
+
+    font-size: 1rem;
+    line-height: 1.6rem;
+
+    width: 60%;
+}
+
+.chamada__img-mobile {
+    width: auto;
+}
+
+.chamada__img-desktop {
+    display: none;
+}
+
+.chamada__btn-desktop {
+    display: none;
+}
+
+.btn__started-color {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn__more-color {
+    --bs-btn-color: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0d6efd;
+    --bs-btn-hover-border-color: #0d6efd;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0d6efd;
+    --bs-btn-active-border-color: #0d6efd;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0d6efd;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-gradient: none;
+}
+
+.icon-parcerias {
+    margin: 0;
+}
+
+.parceria__icon-Logo {
+    width: 18%;
+}
+
+.logo__Ict-Hub {
+    width: 13%;
+}
+
+@media screen and (max-width: 374px) {
+    .chamada__subtitulo {
+        font-size: 3rem;
+    }
+
+    .chamada__paragrafo {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .chamada__subtitulo {
+        font-size: 3.5rem;
+        
+        line-height: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .conteudo {
+        margin-top: 3.5rem;
+    }
+
+    .container__chamada {
+        margin-top: 4rem;
+    }
+
+    .chamada__subtitulo {
+        font-size: 4.2rem;
+        
+        line-height: 6rem;
+    }
+    
+    .chamada__paragrafo {
+        display: none;
+    }
+
+    .chamada__img-mobile {
+        display: none;
+    }
+    
+    .chamada__img-desktop {
+        display: flex;
+        max-width: 400px;
+    }
+
+    .chamada__btn-desktop {
+        display: flex;
+    }
+
+    .chamada__btn-mobile {
+        display: none;
+    }
+
+    .parceria__icon-Logo {
+        margin-top: 5rem;
+        max-width: 8%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .chamada__subtitulo {
+        font-size: 5rem;
+        
+        line-height: 6rem;
+    }
+
+    .chamada__img-desktop {
+        display: flex;
+        max-width: 600px;
+    }
+}

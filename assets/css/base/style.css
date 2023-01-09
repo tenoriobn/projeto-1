@@ -1,0 +1,28 @@
+@import url(../base/_variaveis.css);
+@import url(../componentes/header/logotipo.css);
+@import url(../componentes/header/nav-hamburguer.css);
+@import url(../componentes/header/navbar.css);
+@import url(../componentes/main/chamada.css);
+@import url(../componentes/main/services.css);
+@import url(../componentes/main/company.css);
+@import url(../componentes/main/pricing.css);
+@import url(../componentes/main/formulario.css);
+@import url(../componentes/footer/rodape.css);
+
+body {
+    font-family: var(--Oxanium);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-azul {
+    background-color: var(--azul)!important;
+    color: var(--branco)!important;
+}
+
+.btn-transparent {
+    background-color: transparent!important;
+    border: 2px solid var(--azul);
+    color: var(--azul)!important;
+}
+

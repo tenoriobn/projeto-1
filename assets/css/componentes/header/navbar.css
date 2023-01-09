@@ -1,0 +1,24 @@
+.navbar__link {
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.barra-menu-width {
+    width: 50%!important;
+}
+
+.navbar__botao {
+    left: 50%;
+    position: relative;
+    top: 5%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (min-width: 992px) {
+    .navbar__botao {
+        left: none;
+        position:initial;
+        top: none!important;
+        transform: none!important;
+    }
+}
